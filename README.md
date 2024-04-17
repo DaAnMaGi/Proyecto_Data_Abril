@@ -37,11 +37,13 @@ La exploración, limpieza, transformación y análisis de los datos se realizó 
 - **Importación de datos**: Se descargaron los [datos originales](https://data.buenosaires.gob.ar/dataset/victimas-siniestros-viales) proporcionados por la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires.
 - **Revisión y preparación de datos**: En [apertura_bases.ipynb](https://github.com/DaAnMaGi/Proyecto_Data_Abril/blob/main/Revisi%C3%B3n_Bases/apertura_bases.ipynb), se exploran los datos proporcionados por la Secretaría de Transporte, se revisa la base de datos para encontrar anomalías, se toman medidas para limpiar y preparar las bases de datos, y se grafican los datos para conocer la composición del dataset tras su transformación. Para ello, se utiliza Python haciendo uso de las librerías Pandas, Matplotlib y Seaborn.
 - **Análisis y visualización**: En [Análisis.pbix](https://github.com/DaAnMaGi/Proyecto_Data_Abril/tree/main/Dashboard) se utiliza Power BI para crear las visualizaciones que proporcionen la información necesaria para realizar el análisis. El archivo está compuesto de las siguientes hojas:
-    - **Intro**: Donde se aborda el contexto del problema, el propósito del análisis y los KPIs que se proponen para el análisis.
+    - **Intro**: Portada del dashboard.
+    - **Contexto**: Donde se aborda el contexto del problema, el propósito del análisis y los KPIs que se proponen para el análisis.
     - **Descripción**: Donde se observa la descripción de los hechos por homicidios en siniestros viales en CABA.
     - **Exploración - Víctimas**: Visualización sobre la composición de las víctimas. 
     - **Clasificación - Víctimas**: Profundización sobre la composición de las víctimas.
     - **Evolución - KPIs**: Visualización de la evolución de los KPIs sugeridos. 
+    - **Conclusiones**: Donde se resaltan algunos resultados claves, así como la revisión del cumplimiento de los KPIs. 
 
 ## Algunos datos clave - Resultados:
 
